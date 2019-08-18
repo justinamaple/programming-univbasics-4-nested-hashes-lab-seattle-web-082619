@@ -16,7 +16,7 @@ def hopper
         }
      }
 
-
+  return programmer_hash[:grace_hopper][:languages]
 end
 
 def alan_kay_is_known_for
@@ -37,6 +37,8 @@ def alan_kay_is_known_for
           :languages => ["C"]
         }
      }
+     
+    return
 end
 
 def dennis_ritchies_language
